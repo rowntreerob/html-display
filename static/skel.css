@@ -1,8 +1,12 @@
 html,
 body {
-  margin: 0;
+  margin: 2;
 }
-
+p {
+  word-wrap: break-word;
+  width: 700px;
+  font-size: 18;
+}
 .flex-container {
   width: 100%;
   display: flex;
