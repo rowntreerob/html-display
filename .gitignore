@@ -1,2 +1,11 @@
 .idea
 venv
+.sesskey
+setup.py
+__pycache__/
+.Python
+env/
+build/
+dist/
+lib/
+tests/
