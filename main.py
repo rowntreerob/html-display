@@ -9,8 +9,9 @@ app = FastAPI()
 app.mount("/static", StaticFiles(directory="static"), name="static")
 templates = Jinja2Templates(directory="template")
 '''
-use html encoded as a block in parm=body
+accept html encoded as a block in parm=body
 decode it and render it in the response
+according to the css style included in the template
 Input is html ( usually scraped from a page somewhere)
 Output is minimally formatted text ( usually from a PW protected page)
 '''
